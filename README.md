@@ -11,8 +11,9 @@
 
 ## Watch the video
 
-![cloudflareredirectsinbulk301](https://github.com/user-attachments/assets/b7eef5b6-3517-4b7c-b4f7-8e6023cd4088)
 
+
+<a href="https://www.youtube.com/watch?v=3-hK5H3OllY" target="_blank"><img src="https://github.com/user-attachments/assets/b7eef5b6-3517-4b7c-b4f7-8e6023cd4088"></a>
 
 
 ## Requirements
