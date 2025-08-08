@@ -11,7 +11,8 @@
 
 ## Watch the video
 
-![cloudflareredirectsinbulk301](https://gist.github.com/user-attachments/assets/22138f19-fa3c-4f9e-8ea4-ba794cf02293)
+![cloudflareredirectsinbulk301](https://github.com/user-attachments/assets/b7eef5b6-3517-4b7c-b4f7-8e6023cd4088)
+
 
 
 ## Requirements
