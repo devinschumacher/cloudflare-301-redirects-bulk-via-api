@@ -1,0 +1,4 @@
+old_url,new_url,status,preserve_query
+https://domain.com/old-page,https://domain.com/new-page,301,true
+https://domain.com/outdated-article,https://domain.com/updated-article,301,true
+https://domain.com/2023/old-post,https://domain.com/blog/old-post,301,true

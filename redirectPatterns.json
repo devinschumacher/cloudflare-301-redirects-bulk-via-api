@@ -1,0 +1,33 @@
+{
+  "redirects": [
+    {
+      "description": "Redirect /reviews/* to root",
+      "from": "/reviews/*",
+      "to": "/$1",
+      "status": 301,
+      "preserve_query": true
+    },
+    {
+      "description": "Redirect /best/* to root",
+      "from": "/best/*",
+      "to": "/$1",
+      "status": 301,
+      "preserve_query": true
+    },
+    {
+      "description": "Redirect /comparison/* to root",
+      "from": "/comparison/*",
+      "to": "/$1",
+      "status": 301,
+      "preserve_query": true
+    },
+    {
+      "description": "Redirect blog subdomain to main domain",
+      "from": "blog.domain.com/*",
+      "to": "domain.com/$1",
+      "status": 301,
+      "preserve_query": true,
+      "type": "subdomain"
+    }
+  ]
+}
