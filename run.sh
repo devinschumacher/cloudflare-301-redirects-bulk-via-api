@@ -199,7 +199,7 @@ if [ -f redirects.csv ]; then
   echo "  Processing $CSV_COUNT one-to-one redirects..."
   
   # Read CSV file (skip header)
-  tail -n +2 redirects.csv | while IFS=, read -r old_url new_url status preserve_query
+  while IFS=, read -r old_url new_url status preserve_query
   do
     # Remove any quotes and whitespace
     old_url=$(echo "$old_url" | tr -d '"' | xargs)
@@ -218,7 +218,7 @@ if [ -f redirects.csv ]; then
     fi
     RULES="$RULES$RULE"
     RULE_COUNT=$((RULE_COUNT + 1))
-  done
+  done < <(tail -n +2 redirects.csv)
 else
   echo -e "${YELLOW}!${NC} No redirects.csv found"
 fi
