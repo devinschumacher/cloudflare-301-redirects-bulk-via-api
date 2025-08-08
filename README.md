@@ -8,14 +8,20 @@
 - ✅ Supports 301, 302, 307, 308 status codes
 - ✅ Optional query string preservation
 
-# Requirements
+
+## Watch the video
+
+![cloudflareredirectsinbulk301](https://gist.github.com/user-attachments/assets/22138f19-fa3c-4f9e-8ea4-ba794cf02293)
+
+
+## Requirements
 
 - Cloudflare account with API access
 - `jq` installed for JSON processing
 - `curl` for API requests
 - Bash shell
 
-# Important Notes
+## Important Notes
 
 - Your domain must be proxied through Cloudflare (orange cloud ON) for redirects to work
 - Redirects won't work if your DNS record points directly to another service (e.g., Hashnode, Vercel)
