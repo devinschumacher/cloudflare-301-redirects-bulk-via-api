@@ -1,4 +1,4 @@
-# README
+# How to Bulk 301 Redirects with Cloudflare
 
 - ✅ Bulk redirect management via Cloudflare API
 - ✅ Pattern-based redirects with wildcards (`/old/*` → `/new/*`)
@@ -38,7 +38,7 @@
 4. Configure the token:
   - **Token name**: "301 Redirects"
   - **Permissions**: 
-    - Single Redirect → Edit
+    - Zone / Single Redirect / Edit
     - Zone → Read
   - **Zone Resources**: 
     - Include → Specific zone → your domain

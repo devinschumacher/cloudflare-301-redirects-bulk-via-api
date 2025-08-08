@@ -1,4 +1,4 @@
 old_url,new_url,status,preserve_query
-https://devinschumacher.com/poop,https://google.com,301,true
-https://devinschumacher.com/pineapple/cakes,https://yahoo.com,301,true
-https://birds.devinschumacher.com/of-prey,https://duckduckgo.com,301,true
+https://old-domain.com/poop,https://new-domain.com,301,true
+https://old-domain.com/pineapple/cakes,https://new-domain.com,301,true
+https://birds.old-domain.com/of-prey,https://new-domain.com,301,true
